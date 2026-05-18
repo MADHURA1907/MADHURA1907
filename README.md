@@ -91,6 +91,7 @@
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MADHURA1907&show_icons=true&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&icon_color=0919c1&border_color=5e36a5"/>
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MADHURA1907&layout=compact&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&border_color=0919c1"/>
 
 </div>
@@ -102,3 +103,9 @@
 📈 Contribution Graph
 
 [![Madhura's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&bg_color=000000&color=5e36a5&line=0919c1&point=ffffff&area=true&hide_border=true)](https://github.com/MADHURA1907)
+
+<div align="center">
+
+⚡ *Building scalable applications and intelligent systems* ⚡
+
+</div>
