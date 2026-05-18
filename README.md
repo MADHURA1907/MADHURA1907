@@ -16,30 +16,37 @@
 
 ---
 
+<h3>🌐 Socials:</h3>
+
+<p>
+  <a href="https://www.linkedin.com/in/madhura-barve-216629308/">
+    <img src="https://img.shields.io/badge/LinkedIn-5138b9?logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:madhura.barve24@pccoepune.org">
+    <img src="https://img.shields.io/badge/Email-5138b9?logo=gmail&logoColor=white" />
+  </a>
+</p>
+
+---
+
 <h3> 💻 Tech Stack:</h3>
 
 
 ### 👨‍💻 Programming Languages
 ![C](https://img.shields.io/badge/C-5138b9?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-5138b9?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Java](https://img.shields.io/badge/Java-5138b9?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-5138b9?style=for-the-badge&logo=javascript&logoColor=white)
 
 ### 🌐 Full Stack Development
 
-#### Frontend
 ![HTML5](https://img.shields.io/badge/HTML5-5138b9?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-5138b9?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-5138b9?style=for-the-badge&logo=javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-5138b9?style=for-the-badge&logo=react&logoColor=white)
-
-#### Backend
+![Tailwindcss](https://img.shields.io/badge/Tailwindcss-5138b9?style=for-the-badge&logo=react&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/Node.js-5138b9?style=for-the-badge&logo=node.js&logoColor=white)
 ![ExpressJS](https://img.shields.io/badge/Express.js-5138b9?style=for-the-badge&logo=express&logoColor=white)
-
-#### Database
-![MySQL](https://img.shields.io/badge/MySQL-5138b9?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-5138b9?style=for-the-badge&logo=mongodb&logoColor=white)
 
 
@@ -66,19 +73,8 @@
 
 
 ### 📚 Currently Exploring
-![System Design](https://img.shields.io/badge/System%20Design-5138b9?style=for-the-badge&logo=googlescholar&logoColor=white)
-![AI Engineering](https://img.shields.io/badge/AI%20Engineering-5138b9?style=for-the-badge&logo=openai&logoColor=white)
-![Cloud Computing](https://img.shields.io/badge/Cloud-5138b9?style=for-the-badge&logo=googlecloud&logoColor=white)
-
----
-
-<h3>📊 GitHub Stats:</h3>
-
-<div align="center"> 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MADHURA1907&show_icons=true&theme=midnight-purple&bg_color=000000&title_color=8b5cf6&icon_color=7c3aed&text_color=c4b5fd&border_color=5138b9"/> 
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MADHURA1907&layout=compact&theme=midnight-purple&bg_color=000000&title_color=8b5cf6&text_color=c4b5fd&border_color=5138b9"/> </div>
-
-<div align="center"> <img src="https://streak-stats.demolab.com?user=MADHURA1907&theme=midnight-purple&background=000000&ring=8b5cf6&fire=7c3aed&currStreakLabel=c4b5fd&border=5138b9"/> </div>
+![Cloud Services](https://img.shields.io/badge/Cloud-5138b9?style=for-the-badge&logo=googlecloud&logoColor=white)
+<!--![](https://img.shields.io/badge/Cloud-5138b9?style=for-the-badge&logo=googlecloud&logoColor=white)-->
 
 ---
 
@@ -89,3 +85,20 @@
   <a href="YOUR_CODECHEF"> <img src="https://img.shields.io/badge/CodeChef-5138b9?style=for-the-badge&logo=codechef&logoColor=white"/> </a> 
   <a href="YOUR_GFG"> <img src="https://img.shields.io/badge/GeeksforGeeks-5138b9?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/> </a>
 </p> -->
+
+<h3>📊 GitHub Stats:</h3>
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MADHURA1907&show_icons=true&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&icon_color=0919c1&border_color=5e36a5"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MADHURA1907&layout=compact&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&border_color=0919c1"/>
+
+</div>
+
+<div align="center"> <img src="https://streak-stats.demolab.com?user=MADHURA1907&theme=midnight-purple&background=000000&ring=8b5cf6&fire=7c3aed&currStreakLabel=c4b5fd&border=5138b9"/> </div>
+
+---
+
+📈 Contribution Graph
+
+[![Madhura's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&bg_color=000000&color=5e36a5&line=0919c1&point=ffffff&area=true&hide_border=true)](https://github.com/MADHURA1907)
