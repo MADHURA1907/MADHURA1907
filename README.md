@@ -88,13 +88,7 @@
 
 <h3>📊 GitHub Stats:</h3>
 
-<div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MADHURA1907&show_icons=true&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&icon_color=0919c1&border_color=5e36a5"/>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MADHURA1907&layout=compact&theme=transparent&bg_color=00000000&title_color=5e36a5&text_color=c9d1d9&border_color=0919c1"/>
-
-</div>
 
 <div align="center"> <img src="https://streak-stats.demolab.com?user=MADHURA1907&theme=midnight-purple&background=000000&ring=8b5cf6&fire=7c3aed&currStreakLabel=c4b5fd&border=5138b9"/> </div>
 
