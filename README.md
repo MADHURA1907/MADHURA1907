@@ -7,11 +7,11 @@
 <h3>💫 About Me:</h3>
 
 <ul>
-  <li>🎓 Pursuing Computer Engineering </li>
-  <li>📚 Strong foundation in Data Structures & Algorithms </li>
-  <li>🛠️ Working on Full Stack Projects and Databases</li>
-  <li>⚡ Love building practical projects with real-world use cases</li>
-  <li>🤖 Exploring AI/ML, LLMs, and modern system design</li>
+  <li>🎓 Computer Engineering Undergraduate at PCCOE, Pune</li>
+  <li>🌐 Building Full Stack Web Applications using the MERN Stack</li>
+  <li>📊 Exploring Machine Learning, Data Analytics, and Computer Vision</li>
+  <li>🚀 Passionate about solving real-world problems through technology</li>
+  <li>📚 Currently learning Deep Learning and advanced ML concepts</li>
 </ul>
 
 ---
@@ -31,12 +31,14 @@
 
 <h3> 💻 Tech Stack:</h3>
 
-
 ### 👨‍💻 Programming Languages
+
 ![C](https://img.shields.io/badge/C-5138b9?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-5138b9?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-5138b9?style=for-the-badge&logo=javascript&logoColor=white)
+
+---
 
 ### 🌐 Full Stack Development
 
@@ -44,37 +46,44 @@
 ![CSS3](https://img.shields.io/badge/CSS3-5138b9?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-5138b9?style=for-the-badge&logo=javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-5138b9?style=for-the-badge&logo=react&logoColor=white)
-![Tailwindcss](https://img.shields.io/badge/Tailwindcss-5138b9?style=for-the-badge&logo=react&logoColor=white)
-![NodeJS](https://img.shields.io/badge/Node.js-5138b9?style=for-the-badge&logo=node.js&logoColor=white)
-![ExpressJS](https://img.shields.io/badge/Express.js-5138b9?style=for-the-badge&logo=express&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-5138b9?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5138b9?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-5138b9?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-5138b9?style=for-the-badge&logo=mongodb&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-5138b9?style=for-the-badge)
+![Socket.IO](https://img.shields.io/badge/Socket.IO-5138b9?style=for-the-badge&logo=socketdotio&logoColor=white)
 
+---
 
-### 🤖 AI / Machine Learning
+### 📊 AI, Machine Learning & Data Analytics
+
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-5138b9?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-5138b9?style=for-the-badge&logo=pandas&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-5138b9?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-5138b9?style=for-the-badge&logo=tensorflow&logoColor=white)
-
-
-### 🗄️ Database & Core CS
-![DBMS](https://img.shields.io/badge/DBMS-5138b9?style=for-the-badge&logo=databricks&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-5138b9?style=for-the-badge&logo=cplusplus&logoColor=white)
-![DSA](https://img.shields.io/badge/DSA-5138b9?style=for-the-badge&logo=thealgorithms&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-5138b9?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5138b9?style=for-the-badge&logo=opencv&logoColor=white)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-5138b9?style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-5138b9?style=for-the-badge&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-5138b9?style=for-the-badge&logo=powerbi&logoColor=white)
+![Excel](https://img.shields.io/badge/Excel-5138b9?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
+---
 
 ### ⚙️ Tools & Platforms
+
 ![Git](https://img.shields.io/badge/Git-5138b9?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-5138b9?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-5138b9?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-5138b9?style=for-the-badge&logo=postman&logoColor=white)
+![npm](https://img.shields.io/badge/npm-5138b9?style=for-the-badge&logo=npm&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5138b9?style=for-the-badge&logo=vite&logoColor=white)
 
+---
 
 ### 📚 Currently Exploring
-![Cloud Services](https://img.shields.io/badge/Cloud-5138b9?style=for-the-badge&logo=googlecloud&logoColor=white)
-<!--![](https://img.shields.io/badge/Cloud-5138b9?style=for-the-badge&logo=googlecloud&logoColor=white)-->
+
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-5138b9?style=for-the-badge)
+![Neural Networks](https://img.shields.io/badge/Neural_Networks-5138b9?style=for-the-badge)
 
 ---
 
