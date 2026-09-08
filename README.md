@@ -4,14 +4,15 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=5138B9&center=true&vCenter=true&width=560&lines=Full+Stack+Developer...;Machine+Learning+Enthusiast...;Problem+Solver...)](https://git.io/typing-svg)
 </div>
 
-<h3> About Me:</h3>
+<h3>💫 About Me:</h3>
 
 <ul>
   <li>🎓 Computer Engineering Undergraduate at PCCOE, Pune</li>
-  <li>🌐 Building Full Stack Web Applications using the MERN Stack</li>
-  <li>📊 Exploring Machine Learning, Data Analytics, and Computer Vision</li>
-  <li>🚀 Passionate about solving real-world problems through technology</li>
-  <li>📚 Currently learning Deep Learning and advanced ML concepts</li>
+  <li>🌐 Building full-stack web applications using the MERN Stack</li>
+  <li>🤖 Exploring Machine Learning, Data Analytics, and Computer Vision</li>
+  <li>🧩 Strengthening my problem-solving and Data Structures & Algorithms skills</li>
+  <li>🚀 Interested in building practical solutions to real-world problems</li>
+  <li>📚 Currently diving deeper into Deep Learning and advanced ML concepts</li>
 </ul>
 
 ---
