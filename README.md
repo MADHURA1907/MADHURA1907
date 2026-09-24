@@ -4,20 +4,20 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=5138B9&center=true&vCenter=true&width=560&lines=Full+Stack+Developer...;Machine+Learning+Enthusiast...;Problem+Solver...)](https://git.io/typing-svg)
 </div>
 
-<h3>💫 About Me:</h3>
+<h3> About Me:</h3>
 
 <ul>
-  <li>🎓 Computer Engineering Undergraduate at PCCOE, Pune</li>
-  <li>🌐 Building full-stack web applications using the MERN Stack</li>
-  <li>🤖 Exploring Machine Learning, Data Analytics, and Computer Vision</li>
-  <li>🧩 Strengthening my problem-solving and Data Structures & Algorithms skills</li>
-  <li>🚀 Interested in building practical solutions to real-world problems</li>
-  <li>📚 Currently diving deeper into Deep Learning and advanced ML concepts</li>
+  <li> Computer Engineering Undergraduate at PCCOE, Pune</li>
+  <li> Building full-stack web applications using the MERN Stack</li>
+  <li> Exploring Machine Learning, Data Analytics, and Computer Vision</li>
+  <li> Strengthening my problem-solving and Data Structures & Algorithms skills</li>
+  <li> Interested in building practical solutions to real-world problems</li>
+  <li> Currently diving deeper into Deep Learning and advanced ML concepts</li>
 </ul>
 
 ---
 
-<h3>🌐 Socials:</h3>
+<h3> Socials:</h3>
 
 <p>
   <a href="https://www.linkedin.com/in/madhura-barve-216629308/">
@@ -30,9 +30,9 @@
 
 ---
 
-<h3> 💻 Tech Stack:</h3>
+<h3>  Tech Stack:</h3>
 
-### 👨‍💻 Programming Languages
+###  Programming Languages
 
 ![C](https://img.shields.io/badge/C-5138b9?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-5138b9?style=for-the-badge&logo=c%2B%2B&logoColor=white)
@@ -41,7 +41,7 @@
 
 ---
 
-### 🌐 Full Stack Development
+###  Full Stack Development
 
 ![HTML5](https://img.shields.io/badge/HTML5-5138b9?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-5138b9?style=for-the-badge&logo=css3&logoColor=white)
@@ -56,7 +56,7 @@
 
 ---
 
-### 📊 AI, Machine Learning & Data Analytics
+###  AI, Machine Learning & Data Analytics
 
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-5138b9?style=for-the-badge&logo=numpy&logoColor=white)
@@ -70,7 +70,7 @@
 
 ---
 
-### ⚙️ Tools & Platforms
+###  Tools & Platforms
 
 ![Git](https://img.shields.io/badge/Git-5138b9?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-5138b9?style=for-the-badge&logo=github&logoColor=white)
@@ -81,14 +81,14 @@
 
 ---
 
-### 📚 Currently Exploring
+###  Currently Exploring
 
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-5138b9?style=for-the-badge)
 ![Neural Networks](https://img.shields.io/badge/Neural_Networks-5138b9?style=for-the-badge)
 
 ---
 
-<!-- <h3>🧠Coding Profiles:</h3>
+<!-- <h3>Coding Profiles:</h3>
 
 <p align="center">
   <a href="YOUR_LEETCODE"> <img src="https://img.shields.io/badge/LeetCode-5138b9?style=for-the-badge&logo=leetcode&logoColor=white"/> </a>
@@ -96,7 +96,7 @@
   <a href="YOUR_GFG"> <img src="https://img.shields.io/badge/GeeksforGeeks-5138b9?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/> </a>
 </p> -->
 
-<h3>📊 GitHub Stats:</h3>
+<h3> GitHub Stats:</h3>
 
 
 
@@ -104,12 +104,12 @@
 
 ---
 
-📈 Contribution Graph
+ Contribution Graph
 
 [![Madhura's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&bg_color=000000&color=5e36a5&line=0919c1&point=ffffff&area=true&hide_border=true)](https://github.com/MADHURA1907)
 
 <div align="center">
 
-⚡ *Building scalable applications and intelligent systems* ⚡
+ *Building scalable applications and intelligent systems* 
 
 </div>
