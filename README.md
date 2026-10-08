@@ -1,5 +1,5 @@
 <div align="center">
- <h1 align="center">Hi, I'm Madhura</h1>
+ <h1 align="center">Hi, I'm Madhura Barve</h1>
   
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=5138B9&center=true&vCenter=true&width=560&lines=Full+Stack+Developer...;Machine+Learning+Enthusiast...;Problem+Solver...)](https://git.io/typing-svg)
 </div>
