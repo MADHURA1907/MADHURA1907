@@ -108,11 +108,15 @@
 
 ---
 
-<h3>📈 Contribution Activity</h3>
+<h3>🐍 Contribution Activity</h3>
 
 <div align="center">
 
-![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&theme=react-dark&hide_border=true)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
