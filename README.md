@@ -1,7 +1,9 @@
 <div align="center">
- <h1 align="center">Hi, I'm Madhura Barve</h1>
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=5138B9&center=true&vCenter=true&width=560&lines=Full+Stack+Developer...;Machine+Learning+Enthusiast...;Problem+Solver...)](https://git.io/typing-svg)
+
+<h1>Hi, I'm Madhura Barve 👋</h1>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&duration=2500&pause=700&color=5138B9&center=true&vCenter=true&width=650&lines=Machine+Learning+%26+AI+Enthusiast...;Computer+Vision+Explorer...;Data+Structures+%26+Algorithmic+Problem+Solving...;Building+Real-World+Tech+Solutions...;Code.+Create.+Innovate.+Repeat.)](https://git.io/typing-svg)
+
 </div>
 
 <h3> About Me:</h3>
