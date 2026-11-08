@@ -106,9 +106,15 @@
 
 ---
 
- Contribution Graph
+---
 
-[![Madhura's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&bg_color=000000&color=5e36a5&line=0919c1&point=ffffff&area=true&hide_border=true)](https://github.com/MADHURA1907)
+<h3>📈 Contribution Activity</h3>
+
+<div align="center">
+
+![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=MADHURA1907&theme=react-dark&hide_border=true)
+
+</div>
 
 <div align="center">
 
