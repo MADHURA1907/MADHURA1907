@@ -9,12 +9,12 @@
 <h3> About Me:</h3>
 
 <ul>
-  <li> Computer Engineering Undergraduate at PCCOE, Pune</li>
-  <li> Building full-stack web applications using the MERN Stack</li>
-  <li> Exploring Machine Learning, Data Analytics, and Computer Vision</li>
-  <li> Strengthening my problem-solving and Data Structures & Algorithms skills</li>
-  <li> Interested in building practical solutions to real-world problems</li>
-  <li> Currently diving deeper into Deep Learning and advanced ML concepts</li>
+  <li> Third-year Computer Engineering undergraduate at PCCOE, Pune. Pune</li>
+  <li> Exploring Machine Learning, Deep Learning, and Responsible AI.</li>
+  <li> Building practical applications using Machine Learning and Computer Vision.</li>
+  <li> Strong foundation in C++, Data Structures & Algorithms, and Problem Solving.</li>
+  <li> Interested in developing intelligent systems that address real-world challenges.</li>
+  <li> Constantly learning, experimenting, and turning ideas into working solutions.</li>
 </ul>
 
 ---
