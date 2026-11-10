@@ -39,7 +39,6 @@
 ![C](https://img.shields.io/badge/C-5138b9?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-5138b9?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-5138b9?style=for-the-badge&logo=javascript&logoColor=white)
 
 ---
 
