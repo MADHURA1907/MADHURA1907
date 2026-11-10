@@ -9,7 +9,7 @@
 <h3> About Me:</h3>
 
 <ul>
-  <li> Third-year Computer Engineering undergraduate at PCCOE, Pune. Pune</li>
+  <li> Third-year Computer Engineering undergraduate at PCCOE, Pune.</li>
   <li> Exploring Machine Learning, Deep Learning, and Responsible AI.</li>
   <li> Building practical applications using Machine Learning and Computer Vision.</li>
   <li> Strong foundation in C++, Data Structures & Algorithms, and Problem Solving.</li>
