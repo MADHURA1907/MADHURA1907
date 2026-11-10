@@ -87,6 +87,8 @@
 ![Postman](https://img.shields.io/badge/Postman-5138b9?style=for-the-badge&logo=postman&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-5138b9?style=for-the-badge&logo=npm&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5138b9?style=for-the-badge&logo=vite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-5138b9?style=for-the-badge&logo=supabase&logoColor=white)
+![Render](https://img.shields.io/badge/Render-5138b9?style=for-the-badge&logo=render&logoColor=white)
 
 ---
 
