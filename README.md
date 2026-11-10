@@ -56,6 +56,13 @@
 
 ---
 
+### Databases
+
+![MongoDB](https://img.shields.io/badge/MongoDB-5138b9?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-5138b9?style=for-the-badge&logo=mysql&logoColor=white)
+
+---
+
 ###  AI, Machine Learning & Data Analytics
 
 ![Python](https://img.shields.io/badge/Python-5138b9?style=for-the-badge&logo=python&logoColor=white)
