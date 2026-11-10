@@ -110,12 +110,17 @@
 
 <h3> GitHub Stats:</h3>
 
+<div align="center">
 
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=MADHURA1907&show_icons=true&theme=midnight-purple&bg_color=000000&border_color=5138b9&title_color=c4b5fd&icon_color=8b5cf6&text_color=ffffff" />
 
-<div align="center"> <img src="https://streak-stats.demolab.com?user=MADHURA1907&theme=midnight-purple&background=000000&ring=8b5cf6&fire=7c3aed&currStreakLabel=c4b5fd&border=5138b9"/> </div>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MADHURA1907&layout=compact&theme=midnight-purple&bg_color=000000&border_color=5138b9&title_color=c4b5fd&text_color=ffffff" />
 
----
+</div>
 
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=MADHURA1907&theme=midnight-purple&background=000000&ring=8b5cf6&fire=7c3aed&currStreakLabel=c4b5fd&border=5138b9"/>
+</div>
 ---
 
 <h3>🐍 Contribution Activity</h3>
