@@ -51,7 +51,6 @@
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-5138b9?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-5138b9?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-5138b9?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-5138b9?style=for-the-badge&logo=mongodb&logoColor=white)
 ![REST APIs](https://img.shields.io/badge/REST%20APIs-5138b9?style=for-the-badge)
 ![Socket.IO](https://img.shields.io/badge/Socket.IO-5138b9?style=for-the-badge&logo=socketdotio&logoColor=white)
 
