@@ -70,6 +70,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-5138b9?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-5138b9?style=for-the-badge&logo=plotly&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-5138b9?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-5138b9?style=for-the-badge&logo=streamlit&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5138b9?style=for-the-badge&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-5138b9?style=for-the-badge)
 ![SQL](https://img.shields.io/badge/SQL-5138b9?style=for-the-badge&logo=mysql&logoColor=white)
