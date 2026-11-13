@@ -1,0 +1,403 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0d1117" />
+  <title>GitHub Weekly Contribution Activity</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: 32px 16px;
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: Inter, system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 900px;
+      padding: 28px;
+      border: 1px solid #30363d;
+      border-radius: 16px;
+      background: #161b22;
+    }
+
+    h1 { font-size: 24px; margin: 0 0 8px; }
+
+    .subtitle {
+      color: #8b949e;
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: #21262d;
+      border: 1px solid #484f58;
+      color: #e6edf3;
+      padding: 10px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    button:hover:not(:disabled) {
+      border-color: #a78bfa;
+      color: #c4b5fd;
+    }
+
+    button:disabled {
+      opacity: .35;
+      cursor: not-allowed;
+    }
+
+    #weekLabel {
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .chart {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .stat {
+      background: #0d1117;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 16px;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 25px;
+      color: #c4b5fd;
+    }
+
+    .stat span {
+      color: #8b949e;
+      font-size: 12px;
+    }
+
+    .hint {
+      color: #8b949e;
+      font-size: 12px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    #status {
+      color: #f85149;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    @media (max-width: 550px) {
+      .container { padding: 18px 12px; }
+      h1 { font-size: 20px; }
+      .stats { gap: 6px; }
+      .stat { padding: 10px; }
+      .stat strong { font-size: 20px; }
+      .stat span { font-size: 10px; }
+      button { padding: 8px; font-size: 12px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>📈 Weekly Contribution Activity</h1>
+    <div class="subtitle">
+      @MADHURA1907 · Daily GitHub contributions
+    </div>
+
+    <div class="navigation">
+      <button id="previous">← Previous</button>
+      <div id="weekLabel">Loading...</div>
+      <button id="next">Next →</button>
+    </div>
+
+    <div class="chart" id="chart"></div>
+    <div id="status">Loading contribution data...</div>
+
+    <div class="stats">
+      <div class="stat">
+        <strong id="total">—</strong>
+        <span>Weekly contributions</span>
+      </div>
+      <div class="stat">
+        <strong id="active">—</strong>
+        <span>Active days</span>
+      </div>
+      <div class="stat">
+        <strong id="peak">—</strong>
+        <span>Peak day</span>
+      </div>
+    </div>
+
+    <div class="hint">
+      Use the arrows or keyboard ← → to explore your contribution history.
+    </div>
+  </main>
+
+  <script>
+    const NS = "http://www.w3.org/2000/svg";
+
+    const chart = document.getElementById("chart");
+    const status = document.getElementById("status");
+    const previous = document.getElementById("previous");
+    const next = document.getElementById("next");
+
+    let weeks = [];
+    let currentWeek = 0;
+
+    const makeSVG = (tag, attributes = {}, text = "") => {
+      const element = document.createElementNS(NS, tag);
+
+      Object.entries(attributes).forEach(([key, value]) => {
+        element.setAttribute(key, value);
+      });
+
+      if (text) element.textContent = text;
+      return element;
+    };
+
+    const formatDate = (date) =>
+      date.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        timeZone: "UTC"
+      });
+
+    function render() {
+      const days = weeks[currentWeek];
+      if (!days) return;
+
+      chart.innerHTML = "";
+
+      const width = 760;
+      const height = 330;
+      const left = 48;
+      const right = 25;
+      const top = 35;
+      const bottom = 65;
+
+      const plotWidth = width - left - right;
+      const plotHeight = height - top - bottom;
+
+      const maximum = Math.max(
+        5,
+        Math.ceil(Math.max(...days.map(d => d.count)) / 5) * 5
+      );
+
+      const svg = makeSVG("svg", {
+        viewBox: `0 0 ${width} ${height}`,
+        role: "img",
+        "aria-label": "Daily contribution line graph"
+      });
+
+      // Dotted horizontal gridlines and y-axis labels.
+      for (let i = 0; i <= 4; i++) {
+        const value = maximum * i / 4;
+        const y = top + plotHeight - (i / 4) * plotHeight;
+
+        svg.appendChild(makeSVG("line", {
+          x1: left,
+          y1: y,
+          x2: width - right,
+          y2: y,
+          stroke: "#64748b",
+          "stroke-opacity": ".35",
+          "stroke-dasharray": "3 5"
+        }));
+
+        svg.appendChild(makeSVG("text", {
+          x: left - 12,
+          y: y + 4,
+          fill: "#8b949e",
+          "font-size": "11",
+          "text-anchor": "end"
+        }, String(Math.round(value))));
+      }
+
+      const points = days.map((day, index) => ({
+        x: left + (index / 6) * plotWidth,
+        y: top + plotHeight - (day.count / maximum) * plotHeight,
+        ...day
+      }));
+
+      const path = points.map((point, index) =>
+        `${index === 0 ? "M" : "L"} ${point.x} ${point.y}`
+      ).join(" ");
+
+      svg.appendChild(makeSVG("path", {
+        d: path,
+        fill: "none",
+        stroke: "#a78bfa",
+        "stroke-width": "3",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }));
+
+      points.forEach(point => {
+        svg.appendChild(makeSVG("circle", {
+          cx: point.x,
+          cy: point.y,
+          r: "5",
+          fill: "#a78bfa",
+          stroke: "#161b22",
+          "stroke-width": "2"
+        }));
+
+        svg.appendChild(makeSVG("text", {
+          x: point.x,
+          y: Math.max(17, point.y - 13),
+          fill: "#e9d5ff",
+          "font-size": "12",
+          "font-weight": "600",
+          "text-anchor": "middle"
+        }, String(point.count)));
+
+        svg.appendChild(makeSVG("text", {
+          x: point.x,
+          y: height - 30,
+          fill: "#8b949e",
+          "font-size": "11",
+          "text-anchor": "middle"
+        }, point.date.toLocaleDateString("en-US", {
+          weekday: "short",
+          timeZone: "UTC"
+        })));
+
+        svg.appendChild(makeSVG("text", {
+          x: point.x,
+          y: height - 13,
+          fill: "#8b949e",
+          "font-size": "10",
+          "text-anchor": "middle"
+        }, point.date.getUTCDate().toString()));
+      });
+
+      chart.appendChild(svg);
+
+      const total = days.reduce((sum, day) => sum + day.count, 0);
+      const active = days.filter(day => day.count > 0).length;
+      const peak = Math.max(...days.map(day => day.count));
+
+      document.getElementById("total").textContent = total;
+      document.getElementById("active").textContent = `${active}/7`;
+      document.getElementById("peak").textContent = peak;
+
+      document.getElementById("weekLabel").textContent =
+        `${formatDate(days[0].date)} – ${formatDate(days[6].date)}`;
+
+      previous.disabled = currentWeek === 0;
+      next.disabled = currentWeek === weeks.length - 1;
+      status.style.display = "none";
+    }
+
+    previous.addEventListener("click", () => {
+      if (currentWeek > 0) {
+        currentWeek--;
+        render();
+      }
+    });
+
+    next.addEventListener("click", () => {
+      if (currentWeek < weeks.length - 1) {
+        currentWeek++;
+        render();
+      }
+    });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "ArrowLeft") previous.click();
+      if (event.key === "ArrowRight") next.click();
+    });
+
+    async function init() {
+      try {
+        const response = await fetch("./activity-data.json", {
+          cache: "no-store"
+        });
+
+        if (!response.ok) throw new Error("Could not load contribution data.");
+
+        const data = await response.json();
+
+        const grouped = new Map();
+
+        data.days.forEach(day => {
+          const date = new Date(`${day.date}T00:00:00Z`);
+          const monday = new Date(date);
+          const weekday = (date.getUTCDay() + 6) % 7;
+          monday.setUTCDate(monday.getUTCDate() - weekday);
+
+          const key = monday.toISOString().slice(0, 10);
+
+          if (!grouped.has(key)) grouped.set(key, []);
+          grouped.get(key).push({
+            date,
+            count: day.count
+          });
+        });
+
+        weeks = [...grouped.values()].map(group => {
+          const first = new Date(group[0].date);
+          const monday = new Date(first);
+          monday.setUTCDate(monday.getUTCDate() - ((monday.getUTCDay() + 6) % 7));
+
+          return Array.from({ length: 7 }, (_, index) => {
+            const date = new Date(monday);
+            date.setUTCDate(date.getUTCDate() + index);
+
+            const existing = group.find(
+              day => day.date.getTime() === date.getTime()
+            );
+
+            return existing || { date, count: 0 };
+          });
+        });
+
+        if (!weeks.length) throw new Error("No contribution data found.");
+
+        currentWeek = weeks.length - 1;
+        render();
+      } catch (error) {
+        status.textContent = error.message;
+      }
+    }
+
+    init();
+  </script>
+</body>
+</html>
