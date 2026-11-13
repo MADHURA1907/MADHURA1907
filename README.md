@@ -126,19 +126,17 @@
 
 ---
 
-<h3 align="left">📊 Contribution Activity</h3>
+
+<h3 align="left">📈 Daily Contribution Trend</h3>
 
 <div align="center">
   <img
-    src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/activity-assets/activity-90d.svg"
-    alt="GitHub Contribution Activity"
+    src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/activity-assets/activity-line.svg"
+    alt="Daily GitHub contribution trend over the last 90 days"
     width="100%"
   />
 </div>
 
-<div align="center">
-  <sub>Consistency is built one commit at a time.</sub>
-</div>
 
 <div align="center">
 
