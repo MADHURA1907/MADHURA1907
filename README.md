@@ -127,15 +127,18 @@
 ---
 
 
-<h3 align="left">📈 Daily Contribution Trend</h3>
 
-<div align="center">
-  <img
-    src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/activity-assets/activity-line.svg"
-    alt="Daily GitHub contribution trend over the last 90 days"
-    width="100%"
-  />
-</div>
+<h3 align="left">📈 Weekly Contribution Activity</h3>
+
+<p align="center">
+  <a href="https://madhura1907.github.io/MADHURA1907/">
+    <img
+      src="https://img.shields.io/badge/View_Interactive_Contribution_Graph-Weekly_Activity-a78bfa?style=for-the-badge&logo=github&logoColor=white"
+      alt="View interactive weekly contribution graph"
+    />
+  </a>
+</p>
+
 
 
 <div align="center">
