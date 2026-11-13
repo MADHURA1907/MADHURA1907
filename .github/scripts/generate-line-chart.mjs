@@ -176,6 +176,23 @@ const svg = `
 const outputDirectory = "activity-dist";
 fs.mkdirSync(outputDirectory, { recursive: true });
 
+
+fs.writeFileSync(
+  path.join(outputDirectory, "activity-data.json"),
+  JSON.stringify(
+    {
+      username,
+      days: contributions,
+      total,
+      activeDays,
+      peak,
+    },
+    null,
+    2
+  )
+);
+
+
 fs.writeFileSync(
   path.join(outputDirectory, "activity-line.svg"),
   svg.trim()
