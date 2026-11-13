@@ -31,6 +31,12 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
           GITHUB_TOKEN: ${{ secrets.DEUS_COMMIT_CHART_TOKEN || github.token }}
 
+      
+      - name: Prepare interactive weekly chart
+        run: |
+          mkdir -p activity-dist
+          cp .github/scripts/weekly-chart.html activity-dist/index.html
+
       - name: Publish chart to activity-assets branch
         shell: bash
         env:
