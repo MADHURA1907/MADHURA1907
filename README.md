@@ -123,25 +123,21 @@
 </div>
 ---
 
-<h3>🐍 Contribution Activity</h3>
+
+---
+
+<h3 align="left">📊 Contribution Activity</h3>
 
 <div align="center">
-
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake-dark.svg?v=2"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake.svg?v=2"
-  />
   <img
-    alt="GitHub Contribution Snake Animation"
-    src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/output/github-contribution-grid-snake.svg?v=2"
+    src="https://raw.githubusercontent.com/MADHURA1907/MADHURA1907/activity-assets/activity-90d.svg"
+    alt="GitHub Contribution Activity"
+    width="100%"
   />
-</picture>
+</div>
 
+<div align="center">
+  <sub>Consistency is built one commit at a time.</sub>
 </div>
 
 <div align="center">
