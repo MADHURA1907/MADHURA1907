@@ -2,10 +2,6 @@
   "username": "MADHURA1907",
   "days": [
     {
-      "date": "2026-08-28",
-      "count": 2
-    },
-    {
       "date": "2026-08-29",
       "count": 1
     },
@@ -360,9 +356,13 @@
     {
       "date": "2026-11-25",
       "count": 1
+    },
+    {
+      "date": "2026-11-26",
+      "count": 0
     }
   ],
-  "total": 216,
-  "activeDays": 89,
+  "total": 214,
+  "activeDays": 88,
   "peak": 17
 }
